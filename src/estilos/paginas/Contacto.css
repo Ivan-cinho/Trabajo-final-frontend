@@ -1,0 +1,83 @@
+
+/* contacto */
+
+.formcontainer{
+  width: 85vw;
+  height: 45vw;
+  overflow: hidden;
+  margin: 10% auto;
+  background-color: rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  box-shadow: 6px 4px 5px 0px rgba(0, 0, 0, 0.29);
+}
+
+.formcontainer h2{
+  font-family: "Anton", sans-serif;
+  font-size: 3rem;
+  margin-top: 2%;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.formulario{
+  margin: auto;
+  width: 70%;
+}
+
+.formulario .form__input{
+  width: 100%;
+}
+.formulario textarea{
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.75);
+  font-size: x-large;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.formulario label{
+  font-family: "Anton", sans-serif;
+  font-size: x-large;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.formulario input{
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  font-size: x-large;
+  color:rgba(0, 0, 0, 0.75);;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.75);
+  margin-bottom: 7%;
+}
+
+.formulario .form__enviar--submit{
+  font-family: "Anton", sans-serif;
+  font-size: x-large;
+  color: rgba(0, 0, 0, 0.75);
+  background-color: rgba(0, 0, 0, 0);
+  border: solid rgba(0, 0, 0, 0.75) 2px;
+  padding: 0 1%;
+  transform: all;
+  transition: 0.7s;
+  display: flex;
+  margin: 5% auto;
+}
+
+.formcontainer .formulario .form__enviar--submit:hover {
+  color: #f2f2f2;
+  background-color: rgba(0, 0, 0, 0.75);
+  transition: 0.7s;
+}
+
+section p{
+  font-size: x-large;
+}
+  
+/* section p{
+  width: 70%;
+  margin: auto;
+  font-size: x-large;
+} */
+  
+  

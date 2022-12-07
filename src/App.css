@@ -1,0 +1,17 @@
+*{
+  font-family: "Anton", cursive;
+  margin: 0;
+  padding: 0;
+  text-decoration: none !important;
+}
+
+BODY {
+  background-image: url(/public/imagenes/fondo4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+

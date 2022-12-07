@@ -1,0 +1,81 @@
+
+/* home */
+
+h1 {
+    font-size: 4rem;
+    font-family: "Anton", sans-serif;
+    color: rgba(0, 0, 0, 0.75);
+    margin: 3% auto;
+    text-align: center;
+  }
+  
+  .contenedor-banner {
+    display: flex;
+    width: 70vw;
+    height: 500px;
+    margin: 3rem auto 3rem auto;
+    background-image: url(/public/imagenes/imagen4.jpg);
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    border-bottom: 2px rgba(0, 0, 0, 0.75) solid;
+  }
+  .contenedor-banner .contenedor-banner_descripcion {
+    width: 70%;
+    align-items: center;
+  }
+  .contenedor-banner .contenedor-banner_descripcion h2 {
+    font-family: "Anton", sans-serif;
+    font-size: 3rem;
+    color: rgba(0, 0, 0, 0.75);
+    margin-top: 8%;
+  }
+  .contenedor-banner .contenedor-banner_descripcion p {
+    font-family: "Anton", sans-serif;
+    font-size: xx-large;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.75);
+    width: 70%;
+  }
+  .contenedor-banner .contenedor-banner_descripcion a {
+    font-family: "Anton", sans-serif;
+    font-size: x-large;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.75);
+    border: 2px rgba(0, 0, 0, 0.75) solid;
+    padding: 0 1%;
+    transition: 0.7s;
+  }
+  .contenedor-banner .contenedor-banner_descripcion a:hover {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #f2f2f2;
+    transition: 0.7S;
+  }
+  
+  /* proximos shows */
+
+.proximos-shows{
+  width: 85%;
+  margin: 5% auto;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.proximos-shows h2{
+  writing-mode: vertical-lr;
+  transform: rotate(-180deg);
+  color: rgba(0, 0, 0, 0.55);
+  font-size: 130px;
+  letter-spacing: 3rem;
+  font-style: italic;
+  text-align: center;
+  margin: 0;
+}
+.contenedor-flyer{
+  border-radius: 3%;
+  width: 50%;
+  background-image: url(../../../public/imagenes/flyer1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

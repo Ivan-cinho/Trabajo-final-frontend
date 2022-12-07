@@ -1,0 +1,31 @@
+
+/* footer */
+footer .seguinos {
+    background-color: black;
+}
+footer .seguinos .menu_seguinos {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+footer .seguinos .menu_seguinos a {
+    display: inline-block;
+    font-size: 6rem;
+    color: white;
+    width: 100%;
+    transition: all 0.5s;
+  }
+  footer .seguinos .menu_seguinos a:hover {
+    color: #f2f2f2;
+    transform: scale(0.95);
+    transition: all 0.5s;
+  }
+  
+  /* @media only screen and (max-width: 768px) {
+    .menu_seguinos {
+      width: 95%;
+    }
+  } */
+  

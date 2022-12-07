@@ -1,0 +1,51 @@
+
+  /* agenda */
+  .contenedor-agenda {
+    display: flex;
+    width: 85vw;
+    margin: 9% auto;
+  }
+  .contenedor-agenda h2 {
+    writing-mode: vertical-lr;
+    transform: rotate(-180deg);
+    color: rgba(0, 0, 0, 0.55);
+    font-size: 130px;
+    letter-spacing: 3rem;
+    font-style: italic;
+    text-align: center;
+    margin: 0;
+  }
+  .contenedor-agenda .contenedor-agenda_fechas {
+    width: 100%;
+    margin: auto;
+  }
+  .contenedor-agenda .contenedor-agenda_fechas ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 100%;
+    height: 8%;
+    border-bottom: rgba(0, 0, 0, 0.55) solid 1px;
+    margin: 2% 0;
+    padding: 0;
+  }
+  .contenedor-agenda .contenedor-agenda_fechas ul li {
+    font-family: "Anton", sans-serif;
+    color: rgba(0, 0, 0, 0.75);
+    font-size: x-large;
+    width: 20%;
+    margin: auto;
+    text-align: center;
+  }
+  /* .contenedor-agenda .contenedor-agenda_fechas ul li a {
+    font-family: "Anton", sans-serif;
+    color: rgba(0, 0, 0, 0.75);
+    font-size: x-large;
+  }
+  .contenedor-agenda .contenedor-agenda_fechas ul li a:hover {
+    color: rgba(0, 0, 0, 0.55);
+  }
+  
+.flyer{
+  display: flex;
+} */

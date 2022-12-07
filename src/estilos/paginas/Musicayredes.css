@@ -1,0 +1,159 @@
+
+/* musica y redes */
+
+.contenedor {
+    width: 85vw;
+    margin: 5% auto;
+  }
+  .contenedor .contenedor-musica {
+    margin: 8% auto;
+  }
+  .contenedor .contenedor-musica .imagen-descripcion {
+    display: flex;
+    height: 40vw;
+    margin: 1% auto;
+  }
+  .contenedor .contenedor-musica .imagen-descripcion .deepConurba-imagen {
+    width: 45%;
+    background-image: url(/public/imagenes/imagen4.jpg);
+    background-size: contain;
+    background-position: top left;
+    background-repeat: no-repeat;
+  }
+  .contenedor .contenedor-musica .imagen-descripcion .deepConurba-texto {
+    width: 57%;
+    margin: auto;
+    text-align: center;
+  }
+  .contenedor .contenedor-musica .imagen-descripcion .deepConurba-texto h2 {
+    font-family: "Anton", sans-serif;
+    font-size: 3rem;
+    color: rgba(0, 0, 0, 0.75);
+    text-align: center;
+    margin: auto 0 4% 0;
+  }
+  .contenedor .contenedor-musica .imagen-descripcion .deepConurba-texto p {
+    font-family: "Anton", sans-serif;
+    font-size: x-large;
+    color: rgba(0, 0, 0, 0.75);
+    margin: 0 5% 5% 5%;
+  }
+  .contenedor .contenedor-musica .imagen-descripcion .deepConurba-texto a {
+    color: rgba(0, 0, 0, 0.75);
+    font-size: xx-large;
+    margin: auto;
+    padding: 2%;
+  }
+  .contenedor .contenedor-musica .imagen-descripcion .contraTodoPronostico-imagen {
+    width: 45%;
+    background-image: url(/public/imagenes/imagen1.jpg);
+    background-size: contain;
+    background-position: top right;
+    background-repeat: no-repeat;
+  }
+  .contenedor .contenedor-musica .imagen-descripcion .contraTodoPronostico-texto {
+    width: 57%;
+    margin: auto;
+    text-align: center;
+  }
+  .contenedor .contenedor-musica .imagen-descripcion .contraTodoPronostico-texto h2 {
+    font-family: "Anton", sans-serif;
+    font-size: 3rem;
+    color: rgba(0, 0, 0, 0.75);
+    margin: auto 0 4% 0;
+  }
+  .contenedor .contenedor-musica .imagen-descripcion .contraTodoPronostico-texto p {
+    font-family: "Anton", sans-serif;
+    font-size: x-large;
+    color: rgba(0, 0, 0, 0.75);
+    margin: 0 5% 5% 5%;
+  }
+  .contenedor .contenedor-musica .imagen-descripcion .contraTodoPronostico-texto a {
+    color: rgba(0, 0, 0, 0.75);
+    font-size: xx-large;
+    margin: auto;
+    padding: 2%;
+  }
+
+  
+  
+  /* @media only screen and (max-width: 1024px) {
+    .contenedor .contenedor-musica .imagen-descripcion .deepConurba-texto h2 {
+      font-size: 3rem;
+    }
+    .contenedor .contenedor-musica .imagen-descripcion .deepConurba-texto p {
+      font-size: x-large;
+    }
+    .contenedor .contenedor-musica .imagen-descripcion .deepConurba-texto a {
+      font-size: xx-large;
+    }
+    .contenedor .contenedor-musica .imagen-descripcion .contraTodoPronostico-texto h2 {
+      font-size: 3rem;
+    }
+    .contenedor .contenedor-musica .imagen-descripcion .contraTodoPronostico-texto p {
+      font-size: x-large;
+    }
+    .contenedor .contenedor-musica .imagen-descripcion .contraTodoPronostico-texto a {
+      font-size: xx-large;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .contenedor .contenedor-musica .imagen-descripcion .deepConurba-texto h2 {
+      font-size: xx-large;
+    }
+    .contenedor .contenedor-musica .imagen-descripcion .deepConurba-texto p {
+      font-size: large;
+    }
+    .contenedor .contenedor-musica .imagen-descripcion .deepConurba-texto a {
+      font-size: x-large;
+    }
+    .contenedor .contenedor-musica .imagen-descripcion .contraTodoPronostico-texto h2 {
+      font-size: xx-large;
+    }
+    .contenedor .contenedor-musica .imagen-descripcion .contraTodoPronostico-texto p {
+      font-size: large;
+    }
+    .contenedor .contenedor-musica .imagen-descripcion .contraTodoPronostico-texto a {
+      font-size: x-large;
+    }
+  }
+  @media only screen and (max-width: 426px) {
+    .contenedor .contenedor-musica .imagen-descripcion .deepConurba-texto h2 {
+      font-size: medium;
+    }
+    .contenedor .contenedor-musica .imagen-descripcion .deepConurba-texto p {
+      font-size: x-small;
+    }
+    .contenedor .contenedor-musica .imagen-descripcion .deepConurba-texto a {
+      font-size: small;
+    }
+    .contenedor .contenedor-musica .imagen-descripcion .contraTodoPronostico-texto h2 {
+      font-size: medium;
+    }
+    .contenedor .contenedor-musica .imagen-descripcion .contraTodoPronostico-texto p {
+      font-size: x-small;
+    }
+    .contenedor .contenedor-musica .imagen-descripcion .contraTodoPronostico-texto a {
+      font-size: small;
+    }
+  }
+  @media only screen and (max-width: 426px) {
+    .contenedor .contenedor-musica .imagen-descripcion .deepConurba-texto h2 {
+      font-size: small;
+    }
+    .contenedor .contenedor-musica .imagen-descripcion .deepConurba-texto p {
+      font-size: xx-small;
+    }
+    .contenedor .contenedor-musica .imagen-descripcion .deepConurba-texto a {
+      display: none;
+    }
+    .contenedor .contenedor-musica .imagen-descripcion .contraTodoPronostico-texto h2 {
+      font-size: small;
+    }
+    .contenedor .contenedor-musica .imagen-descripcion .contraTodoPronostico-texto p {
+      font-size: xx-small;
+    }
+    .contenedor .contenedor-musica .imagen-descripcion .contraTodoPronostico-texto a {
+      display: none;
+    }
+  } */
